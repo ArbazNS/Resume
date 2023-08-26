@@ -1,0 +1,280 @@
+/* Reset some default styles */
+body,h2 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url('bg1.jpg'); /* Change this to your background image */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:overlay;
+    color: #fff;
+    
+    background-color: #5a5a5a;
+    
+  }
+  
+  /* Global Styles */
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+  position: relative;
+  background-image: url('bg4.jpg'); /* Change this to your background image */
+  background-size: cover;
+  background-position: center;
+  background-blend-mode:overlay;
+  }
+  
+  header {
+    position: relative;
+    background-image: url('bg1.jpg'); /* Change this to your background image */
+    background-size: cover;
+    background-position: center;
+    background-blend-mode:overlay;
+    color: #fff;
+    
+    background-color: #5a5a5a;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+ #heading{
+  font-weight: bold;
+  font-size: 35px;
+  height: 0px;
+  padding: 0px;
+  margin-top: 0px;
+ }
+
+ 
+
+
+
+
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+/* Stylish About Me Section */
+/* ... (previous styles) ... */
+
+/* Stylish About Me Section */
+#about {
+  padding: 30px 10px;
+  border-radius: 10px;
+  text-align: center;
+  max-width: 1200px;
+  max-height: 500px;
+  margin: 0 auto ;
+  margin-top: 10px;
+}
+
+#about h2 {
+  font-size: 36px;
+}
+
+#about p {
+  font-size: 18px;
+  margin: 25px 0;
+  color: #ffffff;
+  line-height: 1.6;
+  font-style: normal;
+  padding: 0px 60px 0px 60px ;
+  font-weight: bold;
+}
+
+/* ... (previous styles) ... */
+
+  
+  .profile-image {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    margin: 25px auto 5px;
+     transition: 0.5s;
+  }
+
+  .profile-image:hover{
+    transition: 0.5s;
+    border-radius: 40%;
+  }
+  
+  /* ... (previous styles) ... */
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #ffffff; /* Icon color */
+  font-size: 34px; /* Icon size */
+  transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.social-links a:hover {
+  transform: translateY(-5px);
+  color: #001464; /* Hovered icon color */
+}
+
+/* ... (previous styles) ... */
+
+  
+
+
+
+/* ... (previous styles) ... */
+
+/* Stylish Projects Section */
+#projects {
+  padding: 30px 20px;
+  text-align: center;
+  overflow: hidden; /* Add this */
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px  ;
+  border-radius: 10px;
+  display: flexbox;
+  
+}
+
+
+.project-carousel {
+  display: flex;
+  flex-wrap: wrap;
+  transition: transform 0.5s ease-in-out;
+  margin-top: 10px; 
+  justify-content: center;
+  justify-items: center;
+}
+
+
+
+/* ... (previous styles) ... */
+
+.project {
+  width: 300px; /* Adjust card width as needed */
+  height: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #f8f9fa;
+  text-align: left;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background-image: url('bg3.jpg'); /* Change this to your background image */
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s;
+  margin: 20px;
+  color:#fff;
+  
+}
+
+.project:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+
+#projects h2 {
+  font-size: 38px;  
+}
+
+.project p {
+  font-size: 14px;
+  color: #ffffff;
+}
+
+/* ... (previous styles) ... */
+
+
+/* ... (previous styles) ... */
+
+/* Stylish Contact Section */
+#contact {
+  padding: 30px 20px;
+  text-align: center;
+  overflow: hidden; /* Add this */
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 100px  ;
+  margin-bottom: 20PX;
+  border-radius: 10px;
+}
+
+#contact h2 {
+  font-size: 36px;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #0056b3;
+}
+
+/* ... (previous styles) ... */
+
+
+/* ... (previous styles) ... */
+
+/* Fade-in Animation */
+#contact {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 1s forwards;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* ... (previous styles) ... */
+
+/* ... (previous styles) ... */
